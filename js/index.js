@@ -27,10 +27,16 @@
 function valida_envia(){
     //valido el nombre
     if (document.formulario.inputNombre.value.length==0){
-           alert("Tiene que escribir su nombre")
+           alert("Tiene que ingresar su nombre")
            document.formulario.inputNombre.focus()
            return 0;
     }
+    if (document.formulario.inputCiudad.value.length==0){
+        alert("Tiene que ingresar la ciudad")
+        document.formulario.inputCiudad.focus()
+        return 0;
+ }
+ 
     //el formulario se envia
     alert("Muchas gracias por enviar el formulario");
     document.formulario.submit();
