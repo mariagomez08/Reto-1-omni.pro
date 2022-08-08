@@ -19,7 +19,7 @@
         console.log(err);
     }
 })(jQuery);
-
+/*
 function valida_envia() {
     //valido el nombre
 
@@ -53,10 +53,12 @@ function valida_envia() {
         document.formulario.inputNumero.focus();
         return 0;
     }
-
+*/
     //el formulario se envia
+    document.formulario.action= registro.html;
     alert("Muchas gracias por enviar el formulario");
     document.formulario.submit();
-}
+    
+
 
 //valido la edad. tiene que ser entero mayor que 18
