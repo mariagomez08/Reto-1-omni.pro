@@ -1,0 +1,453 @@
+.topnav {
+  background-color: #15a749;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+
+.navbar{
+padding-right: 15px;
+padding-left: 15px;
+padding-bottom: 1px;
+padding-top: 0px;
+background-color: #15a749;
+font-style: oblique;
+font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+font-size: larger;
+text-decoration: underline;
+}
+
+.navbar a{
+  float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.navbar a:hover{
+  background-color: rgba(255, 255, 255, 0.411);
+
+}
+
+
+.carousel.item {
+height: 550px;
+}
+
+.carousel-inner img {
+width: 100%;
+max-height: 570px;
+}
+
+
+label{
+  color: white;
+  
+}
+/* ==========================================================================
+   #FONT
+   ========================================================================== */
+.font-robo {
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+}
+
+.font-poppins {
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+
+/* ==========================================================================
+   #GRID
+   ========================================================================== */
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row-space {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.col-2 {
+  width: -webkit-calc((100% - 30px) / 2);
+  width: -moz-calc((100% - 30px) / 2);
+  width: calc((100% - 30px) / 2);
+}
+
+@media (max-width: 767px) {
+  .col-2 {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   #BOX-SIZING
+   ========================================================================== */
+/**
+ * More sensible default box-sizing:
+ * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* ==========================================================================
+   #RESET
+   ========================================================================== */
+/**
+ * A very simple reset that sits on top of Normalize.css.
+ */
+body,
+h1, h2, h3, h4, h5, h6,
+blockquote, p, pre,
+dl, dd, ol, ul,
+figure,
+hr,
+fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Remove trailing margins from nested lists.
+ */
+li > ol,
+li > ul {
+  margin-bottom: 0;
+}
+
+/**
+ * Remove default table spacing.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+ * 1. Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
+ *    on fieldsets.
+ */
+fieldset {
+  min-width: 0;
+  /* [1] */
+  border: 0;
+}
+
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+/* ==========================================================================
+   #PAGE WRAPPER
+   ========================================================================== */
+.page-wrapper {
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
+/* ==========================================================================
+   #BACKGROUND
+   ========================================================================== */
+.page-wrapper{
+  background-color: #1A1A1A;
+}
+
+/* ==========================================================================
+   #SPACING
+   ========================================================================== */
+
+
+.p-t-130 {
+  padding-top: 130px;
+}
+
+.p-b-100 {
+  padding-bottom: 100px;
+}
+
+.m-r-45 {
+  margin-right: 45px;
+}
+
+
+
+/* ==========================================================================
+   #WRAPPER
+   ========================================================================== */
+.wrapper {
+  margin: 0 auto;
+}
+
+.wrapper--w1000 {
+  max-width: 1000px;
+}
+
+.wrapper--w780 {
+  max-width: 780px;
+}
+
+.wrapper--w680 {
+  max-width: 680px;
+}
+
+/* ==========================================================================
+   #BUTTON
+   ========================================================================== */
+.btn {
+  display: inline-block;
+  line-height: 50px;
+  padding: 0 50px;
+  cursor: pointer;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+
+.btn--radius {
+  border-radius: 3px;
+}
+
+.btn--green {
+  background: #57b846;
+}
+
+.btn--green:hover {
+  background: #4dae3c;
+}
+
+.btn--blue {
+  background: #5dd742;
+}
+
+
+/* ==========================================================================
+   #FORM
+   ========================================================================== */
+input {
+  outline: none;
+  border:#1A1A1A;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+}
+/* input form*/
+.input--style-4 {
+  line-height: 50px;
+  background: #fafafa;
+  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #666;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.label {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  display: block;
+  margin-bottom: 5px;
+}
+/*radio buttoms*/
+.radio-container {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+/*radio buttons color  y marca*/
+.radio-container input:checked ~ .checkmark {
+  background-color: #e5e5e5;
+}
+
+.radio-container input:checked ~ .checkmark:after {
+  display: block;
+}
+/*posicion checkmark*/
+.radio-container .checkmark:after {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #57b846;
+}
+
+.checkmark {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #e5e5e5;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 22px;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   #TITLE
+   ========================================================================== */
+.title {
+  font-size: 24px;
+  color: #525252;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+/* ==========================================================================
+   #CARD
+   ========================================================================== */
+   
+.card-4 .card-body {
+  padding: 57px 65px;
+  padding-bottom: 65px;
+}
+
+@media (max-width: 767px) {
+  .card-4 .card-body {
+    padding: 50px 40px;
+  }
+}
