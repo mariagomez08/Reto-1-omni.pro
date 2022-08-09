@@ -14,14 +14,16 @@ html {
 html,body {
     font-family: 'Raleway', sans-serif;  
 }
-.thankyou-page ._header {
+._header {
     background: #15A749;
-    padding: 100px 30px;
+    padding: 100px 15px;
     text-align: center;
+    border-radius: 20px;
 }
+
 .thankyou-page ._header .logo {
-    max-width: 200px;
-    margin: 0 auto 50px;
+    max-width: 300px;
+    margin: 0 auto 0px;
 }
 .thankyou-page ._header .logo img {
     width: 100%;
@@ -65,3 +67,41 @@ html,body {
     padding: 20px 33px;
     text-transform: uppercase;
 }
+
+._footer2{
+    background-color: #1A1A1A;
+    border-radius: 20px;
+    position: center;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.logofooter{
+    position: relative;
+    top: 15px;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(min-width: 0px){
+    .logofooter{
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        column-gap: 20px;
+    }
+}
+
+.pay{
+    position: relative;
+    left: 25%;
+    bottom: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
