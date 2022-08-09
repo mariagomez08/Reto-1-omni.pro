@@ -22,148 +22,152 @@
 <body>
     <!--Barra de navegación-->
     <header>
-        <div class="topnav" id="myTopnav">
-            <div>
+        <div class="topnav row row-space">
+            <div class="col-1 ">
                 <div>
                     <img src="img/logo jumbo.png" href="#" width="70"></img>
                 </div>
-
-                <div>
+            </div>
+            <div class="col-7">
+                <div class="apartados">
                     <a href="index.htmml">Inicio</a>
                     <a href="#registro">Registrarse</a>
-                    <a href="registro.html">THANK TOU PAGE</a>
+
                 </div>
             </div>
         </div>
-    </header>
-    <!-- Fin Barra de navegación-->
+        <!-- Fin Barra de navegación-->
 
-    <!--Inicio carrusel-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-        </div>
-        <div class="carousel-inner">
-
-            <div class="carousel-item active">
-                <img src="/img/carnes.jpg" class="d-block w-100" alt="carnes jumbo">
+        <!--Inicio carrusel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
             </div>
-            <div class="carousel-item">
-                <img src="/img/licores.jpg" class="d-block w-100" alt="licores Jumbo">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="/img/carnes.jpg" class="d-block w-100" alt="carnes jumbo">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/licores.jpg" class="d-block w-100" alt="licores Jumbo">
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
 
-    <!--fin carrusel-->
+        <!--fin carrusel-->
 
-    <!--Inicio formulario-->
+        <!--Inicio formulario-->
 
-    <a name="registro">
+        <a name="registro">
 
-        <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
-            <div class="wrapper wrapper--w680">
-                <div class="card card-4">
-                    <div class="card-body">
-                        <h2 class="title">Formulario de registro</h2>
-                        <form name="formulario">
-                            <div class="row row-space">
-                                <div class="col-2">
-                                    <div class="input-group">
-                                        <label class="label">Nombre completo:</label>
-                                        <input class="input--style-4" type="text" name="inputNombre" required>
+            <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+                <div class="wrapper wrapper--w680">
+                    <div class="card card-4">
+                        <div class="card-body">
+                            <h2 class="title">Formulario de registro</h2>
+                            <form name="formulario" action="registro.html">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group">
+                                            <label class="label">Nombre completo:</label>
+                                            <input class="input--style-4" type="text" name="inputNombre"
+                                                placeholder="Coloca tu nombre aquí" required>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-2">
-                                    <div class="input-group">
-                                        <label class="label">Ciudad /estado de residencia:</label>
-                                        <input class="input--style-4" type="text" name="inputCiudad" required>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row row-space">
-                                <div class="col-2">
-                                    <div class="input-group">
-                                        <label class="label">Edad:</label>
-                                        <div class="input-group-icon">
-                                            <input class="input--style-4 js-datepicker" type="text" name="inputEdad"
-                                                required>
+                                    <div class="col-2">
+                                        <div class="input-group">
+                                            <label class="label">Ciudad /estado de residencia:</label>
+                                            <input class="input--style-4" type="text" name="inputCiudad"
+                                                placeholder="Coloca tu ciudad ej: Cartagena" required>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-2">
-                                    <div class="input-group">
-                                        <label class="label">Genero:</label>
-                                        <div class="p-t-10">
-                                            <label class="radio-container m-r-45">Masculino
-                                                <input type="radio" checked="checked" name="inputGenero" required>
-                                                <span class="checkmark"></span>
-                                            </label>
-                                            <label class="radio-container">Femenino
-                                                <input type="radio" name="inputGenero">
-                                                <span class="checkmark"></span>
-                                            </label>
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group">
+                                            <label class="label">Edad:</label>
+                                            <div class="input-group-icon">
+                                                <input class="input--style-4 js-datepicker" type="text" name="inputEdad"
+                                                    placeholder="Coloca tu edad aquí" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group">
+                                            <label class="label">Genero:</label>
+                                            <div class="p-t-10">
+                                                <label class="radio-container m-r-45">Masculino
+                                                    <input type="radio" checked="checked" name="inputGenero" required>
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                                <label class="radio-container">Femenino
+                                                    <input type="radio" name="inputGenero" required>
+                                                    <span class="checkmark"></span>
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row row-space">
-                                <div class="col-2">
-                                    <div class="input-group">
-                                        <label class="label">Email:</label>
-                                        <input class="input--style-4" type="email" name="inputEmail" required>
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group">
+                                            <label class="label">Email:</label>
+                                            <input class="input--style-4" type="email" name="inputEmail"
+                                                placeholder="Coloca tu correo aquí" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group">
+                                            <label class="label">Numero de telefono / Celular:</label>
+                                            <input class="input--style-4" type="text" name="inputNumero"
+                                                placeholder="Coloca tu numero aquí" required>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-2">
-                                    <div class="input-group">
-                                        <label class="label">Numero de telefono / Celular:</label>
-                                        <input class="input--style-4" type="text" name="inputNumero" required>
+                                <div class="input-group">
+                                    <label class="label">¿Qué categoría prefiere? :</label>
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="inputCategoria">
+                                            <option disabled="disabled" selected="selected">Escoge una opción</option>
+                                            <option>Lacteos</option>
+                                            <option>Carnes</option>
+                                            <option>Verduras</option>
+                                            <option>Licores</option>
+                                        </select>
+
                                     </div>
                                 </div>
-                            </div>
-                            <div class="input-group">
-                                <label class="label">¿Qué categoría prefiere? :</label>
-                                <div class="rs-select2 js-select-simple select--no-search">
-                                    <select name="subject">
-                                        <option disabled="disabled" selected="selected">Escoge una opción</option>
-                                        <option>Lacteos</option>
-                                        <option>Carnes</option>
-                                        <option>Verduras</option>
-                                        <option>Licores</option>
-                                    </select>
-                                    
-                                </div>
-                            </div>
-                            <div>
                                 <div>
-                                    <a colspan="2"><input type="button" value="Enviar"  onclick="valida_envia()"></a>
-                             
-                            </div>
-                        </form>
-                        
-                        </body>
-                        </html> 
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--fin formulario-->
-    
-        <!-- Main JS-->
-        <script src="js/index.js"></script>
-    </a>
+                                    <div class="btn--blue">
+                                        <input type="submit" value="Registrase">
+
+                                    </div>
+
+
+
+
+</body>
+
+
+<!-- Main JS-->
+
+</a>
+<script src="js/index.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/sweetAlert.js"></script>
 </body>
 
 <!--Inicio footer-->
