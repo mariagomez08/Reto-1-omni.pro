@@ -116,13 +116,23 @@ html,body {
     font-weight: bold;
     color: rgb(195, 188, 188);
     position: relative;
-    left: 36%;
-    bottom: 90%;
+    left: 40%;
+    bottom: 80%;
 }
 
 .media{
     width:fit-content;
+    height: min-content;
     position: relative;
     left: 33.3%;
-    bottom: 90%;
+    bottom: 70%;
+}
+
+.info{
+    width:fit-content;
+    height: min-content;
+    position: relative;
+    left: 65%;
+    bottom: 115%;
+    color: azure;
 }
