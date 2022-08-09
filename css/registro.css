@@ -1,31 +1,28 @@
-/* html {
+html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-  } 
+  }
   
   * {
     padding: 0;
     margin: 0;
   }
 
-=======
->>>>>>> e8226e5678f54469f5d1ca22cc7353abc1b0ebe9
 .btnRegistrarse{
     background-color: #15A749;
 }
-*/
-
+/* ==========================================================================
+   #TYP
+   ========================================================================== */
 html,body {
-    font-family: 'Raleway', sans-serif; 
-    width: 100%; 
+    font-family: 'Raleway', sans-serif;  
 }
-
 ._header {
     background: #15A749;
+    padding: 100px 15px;
     text-align: center;
     border-radius: 20px;
-    
 }
 
 .thankyou-page ._header .logo {
@@ -42,7 +39,7 @@ html,body {
     margin: 0;
 }
 .thankyou-page ._body {
-    margin: -70px 30px 30px;
+    margin: -70px 0 30px;
 }
 .thankyou-page ._body ._box {
     margin: auto;
@@ -61,14 +58,6 @@ html,body {
 .thankyou-page ._footer {
     text-align: center;
     padding: 30px 30px;
-}
-
-._box{
-    border-radius: 15px;
-}
-
-.btn{
-    border-radius: 15px;
 }
 
 .thankyou-page ._footer .btn {
@@ -111,7 +100,18 @@ html,body {
     }
 }
 
+.pay{
+    width: min-content;
+    position: relative;
+    left: 30%;
+    bottom: 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .follow{
+    width: min-content;
     text-transform: uppercase;
     font-weight: bold;
     color: rgb(195, 188, 188);
@@ -121,8 +121,8 @@ html,body {
 }
 
 .media{
+    width:fit-content;
     position: relative;
     left: 33.3%;
     bottom: 90%;
 }
-
