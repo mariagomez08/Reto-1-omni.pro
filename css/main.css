@@ -56,6 +56,7 @@ text-decoration: none;
 font-size: 17px;
 }
 
+
 .navbar a:hover{
   background-color: rgba(255, 255, 255, 0.411);
 
@@ -484,5 +485,90 @@ input :focus{
   }
 }
 
+/* ==========================================================================
+   #FOOTER
+   ========================================================================== */
+
+.thankyou-page ._footer {
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.thankyou-page ._footer .btn {
+  background: #4ab74a;
+  color: white;
+  border: 0;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 0;
+  letter-spacing: 0.8px;
+  padding: 20px 33px;
+  text-transform: uppercase;
+}
+
+._footer2{
+  background-color: #1A1A1A;
+  
+  position: center;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.logofooter{
+  position: relative;
+  top: 15px;
+  left: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(min-width: 0px){
+  .logofooter{
+      display: grid;
+      grid-template-columns: 33.3% 33.3% 33.3%;
+      column-gap: 20px;
+  }
+}
+
+.pay{
+  width: min-content;
+  position: relative;
+  left: 30%;
+  bottom: 25%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.follow{
+  width: min-content;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(195, 188, 188);
+  position: relative;
+  left: 40%;
+  bottom: 80%;
+}
+
+.media{
+  width:fit-content;
+  height: min-content;
+  position: relative;
+  left: 33.3%;
+  bottom: 70%;
+}
+
+.info{
+  width:fit-content;
+  height: min-content;
+  position: relative;
+  left: 65%;
+  bottom: 115%;
+  color: azure;
+}
 
 
