@@ -1,14 +1,3 @@
-html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  
-  * {
-    padding: 0;
-    margin: 0;
-  }
-
 .btnRegistrarse{
     background-color: #15A749;
 }
@@ -16,13 +5,14 @@ html {
    #TYP
    ========================================================================== */
 html,body {
-    font-family: 'Raleway', sans-serif;  
+    font-family: 'Raleway', sans-serif; 
+    width: 100%; 
 }
 ._header {
     background: #15A749;
-    padding: 100px 15px;
     text-align: center;
     border-radius: 20px;
+    
 }
 
 .thankyou-page ._header .logo {
@@ -39,7 +29,7 @@ html,body {
     margin: 0;
 }
 .thankyou-page ._body {
-    margin: -70px 0 30px;
+    margin: -70px 30px 30px;
 }
 .thankyou-page ._body ._box {
     margin: auto;
