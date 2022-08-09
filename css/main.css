@@ -5,7 +5,6 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: larger;
   text-decoration: underline;
-  
 }
 
 /* Style the links inside the navigation bar */
@@ -19,6 +18,7 @@
   font-size: 15px;
   font-weight: bold;
   font-size: 17px;
+  width: max-content;
 }
 
 /* Change the color of links on hover */
