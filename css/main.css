@@ -316,13 +316,41 @@ h6 {
    #FORMUMALRIO
    ========================================================================== */
 input {
+
+  border: 0;
   outline: none;
-  border:#1A1A1A;
   box-shadow: none;
   width: 100%;
-  font-size: 14px;
+  font-size: px;
   font-family: inherit;
 }
+
+.btn >input{
+  background-color: #bdbdbd00;
+  width: 107px;
+  height: 60px;
+  border-radius: 50px;
+  outline: none;
+  font-size: 30px;
+  font: inherit;
+}
+
+.fourth {
+  border-color: #0ff144;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, #15a749 50%, transparent 50%);
+  background-image: linear-gradient(45deg, 15a749 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.fourth:hover {
+  background-position: 0;
+}
+input :focus{
+  outline:none;
+} 
 /* input form*/
 .input--style-4 {
   line-height: 50px;
@@ -449,3 +477,4 @@ input {
     padding: 50px 40px;
   }
 }
+
