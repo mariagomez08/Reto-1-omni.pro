@@ -102,10 +102,24 @@ html,body {
 
 .pay{
     position: relative;
-    left: 25%;
+    left: 30%;
     bottom: 25%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.follow{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(195, 188, 188);
+    position: relative;
+    left: 36%;
+    bottom: 90%;
+}
+
+.media{
+    position: relative;
+    left: 33.3%;
+    bottom: 90%;
+}
