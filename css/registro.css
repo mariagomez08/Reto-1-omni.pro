@@ -1,8 +1,8 @@
-html {
+/* html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-  }
+  } 
   
   * {
     padding: 0;
@@ -12,12 +12,12 @@ html {
 .btnRegistrarse{
     background-color: #15A749;
 }
-/* ==========================================================================
-   #TYP
-   ========================================================================== */
+*/
+
 html,body {
     font-family: 'Raleway', sans-serif;  
 }
+
 ._header {
     background: #15A749;
     padding: 100px 15px;
@@ -60,6 +60,14 @@ html,body {
     padding: 30px 30px;
 }
 
+._box{
+    border-radius: 15px;
+}
+
+.btn{
+    border-radius: 15px;
+}
+
 .thankyou-page ._footer .btn {
     background: #4ab74a;
     color: white;
@@ -100,15 +108,6 @@ html,body {
     }
 }
 
-.pay{
-    position: relative;
-    left: 30%;
-    bottom: 25%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .follow{
     text-transform: uppercase;
     font-weight: bold;
@@ -123,3 +122,4 @@ html,body {
     left: 33.3%;
     bottom: 90%;
 }
+
